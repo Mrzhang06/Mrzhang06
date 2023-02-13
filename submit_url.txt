@@ -1,6 +1,4 @@
 https://blog.geektime.club/about/index.html
-https://blog.geektime.club/categories/index.html
-https://blog.geektime.club/tags/index.html
 https://blog.geektime.club/2023/02/09/hello-world/
 https://blog.geektime.club/2023/02/13/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/
 https://blog.geektime.club/2023/02/13/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/
