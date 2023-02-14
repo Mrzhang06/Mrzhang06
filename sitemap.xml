@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.geektime.club/about/index.html</loc>
+    <loc>https://blog.geektime.club/2023/02/15/hello-world/</loc>
     
     <lastmod>2023-02-14</lastmod>
     
@@ -11,45 +11,9 @@
   </url>
   
   <url>
-    <loc>https://blog.geektime.club/2023/02/14/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%89%8B%E8%AE%B0/</loc>
+    <loc>https://blog.geektime.club/2023/02/15/test/</loc>
     
     <lastmod>2023-02-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.geektime.club/2023/02/13/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</loc>
-    
-    <lastmod>2023-02-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.geektime.club/2023/02/13/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A03/</loc>
-    
-    <lastmod>2023-02-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.geektime.club/2023/02/13/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/</loc>
-    
-    <lastmod>2023-02-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.geektime.club/2023/02/09/hello-world/</loc>
-    
-    <lastmod>2023-02-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -65,35 +29,7 @@
 
   
   <url>
-    <loc>https://blog.geektime.club/tags/Hexo/</loc>
-    <lastmod>2023-02-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.geektime.club/tags/Github-Pages/</loc>
-    <lastmod>2023-02-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.geektime.club/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2023-02-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.geektime.club/tags/%E6%90%AD%E5%BB%BA%E6%89%8B%E8%AE%B0/</loc>
-    <lastmod>2023-02-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.geektime.club/tags/testpage/</loc>
+    <loc>https://blog.geektime.club/tags/test/</loc>
     <lastmod>2023-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -109,14 +45,7 @@
 
   
   <url>
-    <loc>https://blog.geektime.club/categories/%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-02-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.geektime.club/categories/test-page/</loc>
+    <loc>https://blog.geektime.club/categories/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2023-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
