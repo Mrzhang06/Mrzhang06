@@ -11677,3 +11677,34 @@ figure.highlight.foldable div.level-left {
     padding: 1.5rem 1rem;
   }
 }
+.copyright.article-title {
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+.copyright.article-title.type-1 {
+  color: #82ae46;
+  background-color: #e6fad9;
+}
+.copyright.article-title.type-2 {
+  color: #346cd7;
+  background-color: #eef3fc;
+}
+.copyright.article-block {
+  padding: 0.4em 0.8em;
+  margin-bottom: 1em;
+  border-radius: 0.3rem;
+  border-left: 5px solid #ca0c16;
+}
+.copyright.article-block P {
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+}
+.copyright.article-block.type-1 {
+  border-left: 5px solid #82ae46;
+  background-color: #e6fad9;
+}
+.copyright.article-block.type-2 {
+  border-left: 5px solid #346cd7;
+  background-color: #eef3fc;
+}
