@@ -4,7 +4,7 @@
   <url>
     <loc>https://blog.geektime.club/2023/02/09/hello-world/</loc>
     
-    <lastmod>2023-02-13</lastmod>
+    <lastmod>2023-02-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +49,7 @@
 
   <url>
     <loc>https://blog.geektime.club/</loc>
-    <lastmod>2023-02-13</lastmod>
+    <lastmod>2023-02-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -57,14 +57,14 @@
   
   <url>
     <loc>https://blog.geektime.club/tags/testpage/</loc>
-    <lastmod>2023-02-13</lastmod>
+    <lastmod>2023-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.geektime.club/tags/aaa/</loc>
-    <lastmod>2023-02-13</lastmod>
+    <lastmod>2023-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -73,7 +73,7 @@
   
   <url>
     <loc>https://blog.geektime.club/categories/test-page/</loc>
-    <lastmod>2023-02-13</lastmod>
+    <lastmod>2023-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
