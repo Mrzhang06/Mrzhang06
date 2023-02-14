@@ -11,7 +11,25 @@
   </url>
   
   <url>
+    <loc>https://blog.geektime.club/2023/02/13/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/</loc>
+    
+    <lastmod>2023-02-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.geektime.club/2023/02/13/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A03/</loc>
+    
+    <lastmod>2023-02-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.geektime.club/about/index.html</loc>
     
     <lastmod>2023-02-14</lastmod>
     
@@ -37,24 +55,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://blog.geektime.club/2023/02/13/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/</loc>
-    
-    <lastmod>2023-02-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.geektime.club/about/index.html</loc>
-    
-    <lastmod>2023-02-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://blog.geektime.club/</loc>
@@ -63,20 +63,6 @@
     <priority>1.0</priority>
   </url>
 
-  
-  <url>
-    <loc>https://blog.geektime.club/tags/testpage/</loc>
-    <lastmod>2023-02-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.geektime.club/tags/aaa/</loc>
-    <lastmod>2023-02-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://blog.geektime.club/tags/Hexo/</loc>
@@ -106,17 +92,31 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://blog.geektime.club/categories/test-page/</loc>
+    <loc>https://blog.geektime.club/tags/testpage/</loc>
     <lastmod>2023-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
+    <loc>https://blog.geektime.club/tags/aaa/</loc>
+    <lastmod>2023-02-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
     <loc>https://blog.geektime.club/categories/%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2023-02-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.geektime.club/categories/test-page/</loc>
     <lastmod>2023-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
