@@ -6,7 +6,7 @@
   <link href="https://blog.geektime.club/atom.xml" rel="self"/>
   
   <link href="https://blog.geektime.club/"/>
-  <updated>2023-02-15T18:13:18.957Z</updated>
+  <updated>2023-02-15T18:14:45.638Z</updated>
   <id>https://blog.geektime.club/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Hello World</title>
     <link href="https://blog.geektime.club/2023/02/16/hello-world/"/>
     <id>https://blog.geektime.club/2023/02/16/hello-world/</id>
-    <published>2023-02-15T18:13:18.957Z</published>
-    <updated>2023-02-15T18:13:18.957Z</updated>
+    <published>2023-02-15T18:14:45.638Z</published>
+    <updated>2023-02-15T18:14:45.638Z</updated>
     
     
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
@@ -37,13 +37,19 @@
     <link href="https://blog.geektime.club/2023/02/15/icarus%E4%B8%BB%E9%A2%98%E7%9A%84%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95/"/>
     <id>https://blog.geektime.club/2023/02/15/icarus%E4%B8%BB%E9%A2%98%E7%9A%84%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95/</id>
     <published>2023-02-15T03:25:59.000Z</published>
-    <updated>2023-02-15T18:12:53.000Z</updated>
+    <updated>2023-02-15T18:14:53.000Z</updated>
     
     
     <summary type="html">icarus主题是一款简洁美观，功能强大的hexo主题，但是千人千面，众口难调，总归是由人觉得不符合自己的审美，需要自定义一些东西。这篇文章将会记录自己在使用过程中用到的一些技巧，留作笔记，方便日后查看。</summary>
     
     
     
+    <category term="Blog" scheme="https://blog.geektime.club/categories/Blog/"/>
+    
+    
+    <category term="博客主题" scheme="https://blog.geektime.club/tags/%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="配置笔记" scheme="https://blog.geektime.club/tags/%E9%85%8D%E7%BD%AE%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
