@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>飞流万壑</title>
   
-  <subtitle>张先生的技术手记</subtitle>
+  <subtitle>共千岩争秀</subtitle>
   <link href="https://blog.geektime.club/atom.xml" rel="self"/>
   
   <link href="https://blog.geektime.club/"/>
-  <updated>2023-02-15T03:24:52.774Z</updated>
+  <updated>2023-02-15T03:50:47.751Z</updated>
   <id>https://blog.geektime.club/</id>
   
   <author>
@@ -20,12 +20,27 @@
     <title>Hello World</title>
     <link href="https://blog.geektime.club/2023/02/15/hello-world/"/>
     <id>https://blog.geektime.club/2023/02/15/hello-world/</id>
-    <published>2023-02-15T03:24:52.774Z</published>
-    <updated>2023-02-15T03:24:52.774Z</updated>
+    <published>2023-02-15T03:50:47.751Z</published>
+    <updated>2023-02-15T03:50:47.751Z</updated>
     
     
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>icarus主题使用过程中的奇淫巧计</title>
+    <link href="https://blog.geektime.club/2023/02/15/icarus%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E5%A5%87%E6%B7%AB%E5%B7%A7%E8%AE%A1/"/>
+    <id>https://blog.geektime.club/2023/02/15/icarus%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E5%A5%87%E6%B7%AB%E5%B7%A7%E8%AE%A1/</id>
+    <published>2023-02-15T03:25:59.000Z</published>
+    <updated>2023-02-15T03:25:59.000Z</updated>
+    
+    
+    <summary type="html">icarus主题时很简洁美观，功能强大的一款hexo主题，但是千人千面，众口难调，总归是由人觉得不符合自己的审美，需要自定义一些东西。这篇文章将会记录自己在使用过程中用到的一些技巧，留作笔记，方便日后查看。</summary>
     
     
     
