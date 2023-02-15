@@ -1,0 +1,11 @@
+User-Agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /about/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+
+Sitemap: https://blog.geektime.club/Sitemap.xml
