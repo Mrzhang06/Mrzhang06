@@ -1,0 +1,37 @@
+
+<div id="page">
+        <div id="container">
+            <h1>:(</h1>
+            <h2>你的网页遇到了一些问题，系统正在优化和上报故障信息，我们在未来将改善和减少这种情况的发生.</h2>
+            <h2>完成 <span id="percentage">0</span>%</h2>
+            <div id="details">
+                <div id="qr">
+                    <div id="image">
+                        <img src="./404.png" alt="QR Code">
+                    </div>
+                </div>
+                <div id="stopcode">
+                    <h5 style="font-size: 18px; padding-left：5px" ;=""><br>不好意思！可能页面对您造成了困恼，这其实是一个404页面而已！</h5>
+                    <h5 style="font-size: 18px; padding-left：5px" ;"="">如需返回请扫描二维码或者点击右侧链接回到首页：<a href="https://blog.geektime.club">https://blog.geektime.club</a></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var percentageElement = document.getElementById("percentage");
+        var percentage = 0;
+        function process() {
+          percentage += parseInt(Math.random() * 10);
+          if (percentage > 100) {
+            percentage = 100;
+          }
+          percentageElement.innerText = percentage;
+          processInterval();
+        }
+        function processInterval() {
+          setTimeout(process, Math.random() * (1000 - 500) + 500)
+        }
+        processInterval();
+    </script>
+
+
