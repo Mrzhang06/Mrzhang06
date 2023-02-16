@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="baidu-site-verification" content="codeva-ULvjxjtIe3"><meta name="google-site-verification" content="JLBTwfDqtQ_La2zi0CiYY4r9vwyNmsoHIt_kJmtjBe8"><title>icarus主题的高级用法 - 飞流万壑</title><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#3273dc"><meta name="application-name" content="飞流万壑"><meta name="msapplication-TileImage" content="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/202302151112578.svg"><meta name="msapplication-TileColor" content="#3273dc"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="飞流万壑"><meta name="apple-mobile-web-app-status-bar-style" content="default"><link rel="apple-touch-icon" sizes="144x144" href="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/202302151112578.svg"><meta name="description" content="icarus主题是一款简洁美观，功能强大的hexo主题，但是千人千面，众口难调，总归是由人觉得不符合自己的审美，需要自定义一些东西。这篇文章将会记录自己在使用过程中用到的一些技巧，留作笔记，方便日后查看。"><meta property="og:type" content="blog"><meta property="og:title" content="icarus主题的高级用法"><meta property="og:url" content="https://blog.geektime.club/posts/8917/"><meta property="og:site_name" content="飞流万壑"><meta property="og:description" content="icarus主题是一款简洁美观，功能强大的hexo主题，但是千人千面，众口难调，总归是由人觉得不符合自己的审美，需要自定义一些东西。这篇文章将会记录自己在使用过程中用到的一些技巧，留作笔记，方便日后查看。"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://clubimg.club.vmall.com/pic/2017/09/29/3a3e571ca117a9f3f0a24b39cc4c425a_IMG_20170929_060142-01-01-01.jpeg"><meta property="article:published_time" content="2023-02-15T03:25:59.000Z"><meta property="article:modified_time" content="2023-02-15T18:14:53.000Z"><meta property="article:author" content="Mr.Zhang"><meta property="article:tag" content="博客主题"><meta property="article:tag" content="配置笔记"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://clubimg.club.vmall.com/pic/2017/09/29/3a3e571ca117a9f3f0a24b39cc4c425a_IMG_20170929_060142-01-01-01.jpeg"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.geektime.club/posts/8917/"},"headline":"icarus主题的高级用法","image":[],"datePublished":"2023-02-15T03:25:59.000Z","dateModified":"2023-02-15T18:14:53.000Z","author":{"@type":"Person","name":"Mr.Zhang"},"publisher":{"@type":"Organization","name":"飞流万壑","logo":{"@type":"ImageObject","url":"https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/202302151109303.svg"}},"description":"icarus主题是一款简洁美观，功能强大的hexo主题，但是千人千面，众口难调，总归是由人觉得不符合自己的审美，需要自定义一些东西。这篇文章将会记录自己在使用过程中用到的一些技巧，留作笔记，方便日后查看。"}</script><link rel="canonical" href="https://blog.geektime.club/posts/8917/"><link rel="alternate" href="/atom.xml" title="飞流万壑" type="application/atom+xml"><link rel="icon" href="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/202302151112578.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><script>var _hmt = _hmt || [];
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="baidu-site-verification" content="codeva-ULvjxjtIe3"><meta name="google-site-verification" content="JLBTwfDqtQ_La2zi0CiYY4r9vwyNmsoHIt_kJmtjBe8"><title>icarus主题的高级用法 - 飞流万壑</title><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#3273dc"><meta name="application-name" content="飞流万壑"><meta name="msapplication-TileImage" content="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/202302151112578.svg"><meta name="msapplication-TileColor" content="#3273dc"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="飞流万壑"><meta name="apple-mobile-web-app-status-bar-style" content="default"><link rel="apple-touch-icon" sizes="144x144" href="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/202302151112578.svg"><meta name="description" content="icarus主题是一款简洁美观，功能强大的hexo主题，但是千人千面，众口难调，总归是有人觉得不符合自己的审美，需要自定义一些东西。这篇文章将会记录自己在使用过程中用到的一些技巧，留作笔记，方便日后查看。"><meta property="og:type" content="blog"><meta property="og:title" content="icarus主题的高级用法"><meta property="og:url" content="https://blog.geektime.club/posts/8917/"><meta property="og:site_name" content="飞流万壑"><meta property="og:description" content="icarus主题是一款简洁美观，功能强大的hexo主题，但是千人千面，众口难调，总归是有人觉得不符合自己的审美，需要自定义一些东西。这篇文章将会记录自己在使用过程中用到的一些技巧，留作笔记，方便日后查看。"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://clubimg.club.vmall.com/pic/2017/09/29/3a3e571ca117a9f3f0a24b39cc4c425a_IMG_20170929_060142-01-01-01.jpeg"><meta property="article:published_time" content="2023-02-15T03:25:59.000Z"><meta property="article:modified_time" content="2023-02-16T19:56:53.000Z"><meta property="article:author" content="Mr.Zhang"><meta property="article:tag" content="博客主题"><meta property="article:tag" content="配置笔记"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://clubimg.club.vmall.com/pic/2017/09/29/3a3e571ca117a9f3f0a24b39cc4c425a_IMG_20170929_060142-01-01-01.jpeg"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.geektime.club/posts/8917/"},"headline":"icarus主题的高级用法","image":[],"datePublished":"2023-02-15T03:25:59.000Z","dateModified":"2023-02-16T19:56:53.000Z","author":{"@type":"Person","name":"Mr.Zhang"},"publisher":{"@type":"Organization","name":"飞流万壑","logo":{"@type":"ImageObject","url":"https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/202302151109303.svg"}},"description":"icarus主题是一款简洁美观，功能强大的hexo主题，但是千人千面，众口难调，总归是有人觉得不符合自己的审美，需要自定义一些东西。这篇文章将会记录自己在使用过程中用到的一些技巧，留作笔记，方便日后查看。"}</script><link rel="canonical" href="https://blog.geektime.club/posts/8917/"><link rel="alternate" href="/atom.xml" title="飞流万壑" type="application/atom+xml"><link rel="icon" href="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/202302151112578.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><script>var _hmt = _hmt || [];
         (function() {
             var hm = document.createElement("script");
             hm.src = "//hm.baidu.com/hm.js?8d264504ba5897d28392f184c2dc82c7";
@@ -41,7 +41,7 @@
   })();
   </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/202302151109303.svg" alt="飞流万壑" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">首页</a><a class="navbar-item" href="/archives">时间线</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/about">关于</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener external nofollow noreferrer" title="listen to music" href="https://music-neon-pi.vercel.app"><i class="fab fa-soundcloud"></i></a><a class="navbar-item" target="_blank" rel="noopener external nofollow noreferrer" title="GitHub" href="https://github.com/Mrzhang06"><i class="fab fa-github"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;" rel="external nofollow noreferrer"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="搜索" href="javascript:;" rel="external nofollow noreferrer"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="fill" src="https://clubimg.club.vmall.com/pic/2017/09/29/3a3e571ca117a9f3f0a24b39cc4c425a_IMG_20170929_060142-01-01-01.jpeg" alt="icarus主题的高级用法"></span></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item copyright article-title type-2">原创</span><span class="level-item"><time dateTime="2023-02-15T03:25:59.000Z" title="2/15/2023, 11:25:59 AM">2023-02-15 11:25:59</time>发表</span><span class="level-item"><time dateTime="2023-02-15T18:14:53.000Z" title="2/16/2023, 2:14:53 AM">2023-02-16 02:14:53</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/Blog/">Blog</a></span><span class="level-item">6 分钟读完 (大约912个字)</span><span class="level-item" id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv">0</span>次访问</span></div></div><h1 class="title is-3 is-size-4-mobile">icarus主题的高级用法</h1><div class="copyright article-block type-2"><p>版权申明：本文为原创文章，原创不易，转载请注明原文出处</p><p>原文链接：<a href="https://blog.geektime.club/posts/8917/" target="_blank">https://blog.geektime.club/posts/8917/</a></p></div><div class="content"><h2 id="画廊"><a href="#画廊" class="headerlink" title="画廊"></a>画廊</h2><h3 id="安装使用"><a href="#安装使用" class="headerlink" title="安装使用"></a>安装使用</h3><p>若要在文章中启用主题自带的画廊组件，首先需要在<code>主题配置文件</code>中启用画廊组件。</p>
+</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/202302151109303.svg" alt="飞流万壑" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">首页</a><a class="navbar-item" href="/archives">时间线</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/about">关于</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener external nofollow noreferrer" title="listen to music" href="https://music-neon-pi.vercel.app"><i class="fab fa-soundcloud"></i></a><a class="navbar-item" target="_blank" rel="noopener external nofollow noreferrer" title="GitHub" href="https://github.com/Mrzhang06"><i class="fab fa-github"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;" rel="external nofollow noreferrer"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="搜索" href="javascript:;" rel="external nofollow noreferrer"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="fill" src="https://clubimg.club.vmall.com/pic/2017/09/29/3a3e571ca117a9f3f0a24b39cc4c425a_IMG_20170929_060142-01-01-01.jpeg" alt="icarus主题的高级用法"></span></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item copyright article-title type-2">原创</span><span class="level-item"><time dateTime="2023-02-15T03:25:59.000Z" title="2/15/2023, 11:25:59 AM">2023-02-15 11:25:59</time>发表</span><span class="level-item"><time dateTime="2023-02-16T19:56:53.000Z" title="2/17/2023, 3:56:53 AM">2023-02-17 03:56:53</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/Blog/">Blog</a></span><span class="level-item">18 分钟读完 (大约2713个字)</span><span class="level-item" id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv">0</span>次访问</span></div></div><h1 class="title is-3 is-size-4-mobile">icarus主题的高级用法</h1><div class="copyright article-block type-2"><p>版权申明：本文为原创文章，原创不易，转载请注明原文出处</p><p>原文链接：<a href="https://blog.geektime.club/posts/8917/" target="_blank">https://blog.geektime.club/posts/8917/</a></p></div><div class="content"><h2 id="画廊"><a href="#画廊" class="headerlink" title="画廊"></a>画廊</h2><h3 id="安装使用"><a href="#安装使用" class="headerlink" title="安装使用"></a>安装使用</h3><p>若要在文章中启用主题自带的画廊组件，首先需要在<code>主题配置文件</code>中启用画廊组件。</p>
 <figure class="highlight yaml"><figcaption><span>_config.icarus.yml</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="attr">gallery:</span> <span class="literal">true</span></span><br></pre></td></tr></tbody></table></figure>
 <p>需要使用<code>&lt;div class="justified gallery"&gt;</code>与<code>&lt;/div&gt;</code>标签包裹，如果要使用<code>markdown</code>语法来引用图片，则需要在HTML标签和MarkDown之间留有空行。使用<code>HTML</code>语法时则无需留空行。需注意，文章中启用画廊组件时建议文章主体和画廊部分留空行。</p>
 <figure class="highlight markdown"><figcaption><span>markdown语法引入图片</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"justified-gallery"</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line">![](<span class="link">图片路径或URL</span>)</span><br><span class="line">![<span class="string">tiger</span>](<span class="link">https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2</span>)</span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></tbody></table></figure>
@@ -67,7 +67,7 @@
 <figure class="highlight html"><figcaption><span>第三种提示 &gt;folded</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">article</span> <span class="attr">class</span>=<span class="string">"message message-immersive is-warning"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"message-body"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fas fa-question-circle mr-2"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span>文章内容有误？请点击<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"反馈地址URL"</span>&gt;</span>此处<span class="tag">&lt;/<span class="name">a</span>&gt;</span>提交修改。</span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">article</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
 <h2 id="文章摘要"><a href="#文章摘要" class="headerlink" title="文章摘要"></a>文章摘要</h2><p>用户浏览一个博客网站时，最先看到的是文章标题以及文章的摘要，通常情况下文章的摘要是对文章内容的高度概括，一般不适合展示在文章正文，换言之就是摘要只展现在文章列表，而在文章正文处不显示，有两种方式可以实现该种效果。</p>
 <h3 id="第一种-1"><a href="#第一种-1" class="headerlink" title="第一种"></a>第一种</h3><p>将文章的摘要写在markdown文件开头的front-matter信息中，本篇文章的摘要使用就是这种</p>
-<figure class="highlight markdown"><figcaption><span>文章xxx.md</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">  ...</span><br><span class="line">  ...</span><br><span class="line">  ...</span><br><span class="line"><span class="section">excerpt: xxx文章摘要</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line">xxxxxx文章正文</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight markdown"><figcaption><span>文章xxx.md</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">  ...</span><br><span class="line">  ...</span><br><span class="line">  ...</span><br><span class="line"><span class="section">excerpt: 这是一篇关于...</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line">xxxxxx文章正文</span><br></pre></td></tr></tbody></table></figure>
 <h3 id="第二种-1"><a href="#第二种-1" class="headerlink" title="第二种"></a>第二种</h3><p>在文章正文中使用Bulma搭配HTML标签实现</p>
 <figure class="highlight html"><figcaption><span>文章xxx.md</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">这里的内容会出现的**简介和正文**</span><br><span class="line"></span><br><span class="line">{% raw %}<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"post-summary"</span>&gt;</span>{% endraw %}</span><br><span class="line"></span><br><span class="line">这里的内容只会出现在**简介**</span><br><span class="line"></span><br><span class="line">{% raw %}<span class="tag">&lt;/<span class="name">div</span>&gt;</span>{% endraw %}</span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">    <span class="selector-class">.post-summary</span>{ <span class="attribute">display</span>:none; }</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line">这里的内容只会出现在**正文**</span><br></pre></td></tr></tbody></table></figure>
 
@@ -78,9 +78,463 @@
 </style>
 
 
-<figure class="highlight html"><figcaption><span>文章内容文字黑幕、刮刮乐</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">知道这个东西源自与吾爱破解论坛，可惜现在论坛不让用刮刮乐了,  {% raw %}<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"hide"</span>&gt;</span>难搞，<span class="tag">&lt;/<span class="name">span</span>&gt;</span>{% endraw %}那就在自己的博客上面玩一玩吧。</span><br><span class="line">{% raw %}</span><br><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="language-xml"></span></span><br><span class="line"><span class="language-xml">    <span class="comment">&lt;!--这是黑幕代码--&gt;</span></span></span><br><span class="line"><span class="language-xml">    .hide { color: #000; background: #000; }</span></span><br><span class="line"><span class="language-xml">    .hide:hover { color: #fff; }</span></span><br><span class="line"><span class="language-xml">    <span class="comment">&lt;!--这是刮刮乐代码--&gt;</span></span></span><br><span class="line"><span class="language-xml">    .hide { color: #fff}</span></span><br><span class="line"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">{% endraw %}</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight html"><figcaption><span>文章内容文字黑幕、刮刮乐</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">知道这个东西源自于吾爱破解论坛，可惜现在论坛不让用刮刮乐了,  {% raw %}<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"hide"</span>&gt;</span>难搞，<span class="tag">&lt;/<span class="name">span</span>&gt;</span>{% endraw %}那就在自己的博客上面玩一玩吧。</span><br><span class="line">{% raw %}</span><br><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="language-xml"></span></span><br><span class="line"><span class="language-xml">    <span class="comment">&lt;!--这是黑幕代码--&gt;</span></span></span><br><span class="line"><span class="language-xml">    .hide { color: #000; background: #000; }</span></span><br><span class="line"><span class="language-xml">    .hide:hover { color: #fff; }</span></span><br><span class="line"><span class="language-xml">    <span class="comment">&lt;!--这是刮刮乐代码--&gt;</span></span></span><br><span class="line"><span class="language-xml">    .hide { color: #fff}</span></span><br><span class="line"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">{% endraw %}</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="页内标签页"><a href="#页内标签页" class="headerlink" title="页内标签页"></a>页内标签页</h2><p>标签页是一个功能强大的用于展示平行内容的标签插件，同一时间内，只有活动的标签内容才能展示给用户<br><img src="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/xuanxiangka.jpg"></p>
+<p>标签页是一个功能强大的用于展示平行内容的标签插件，同一时间内，只有活动的标签内容才能展示给用户，形如官方文档页面的效果，其实现方式如下：</p>
+<figure class="highlight plaintext"><figcaption><span>语法定义</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">{% tabs size:&lt;大小&gt; align:&lt;对齐&gt; style:&lt;样式&gt; %}</span><br><span class="line">&lt;!-- tab id:&lt;标签id&gt; icon:&lt;图标&gt; title:&lt;标签标题&gt; active --&gt;</span><br><span class="line">&lt;标签内容&gt;</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&lt;!-- tab id:&lt;标签id&gt; icon:&lt;图标&gt; title:&lt;标签标题&gt; --&gt;</span><br><span class="line">&lt;标签内容&gt;</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">...</span><br><span class="line">{% endtabs%}</span><br></pre></td></tr></tbody></table></figure>
 
-</div><div class="article-licensing box"><div class="licensing-title"><p>icarus主题的高级用法</p><p><a href="https://blog.geektime.club/posts/8917/">https://blog.geektime.club/posts/8917/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><p>Mr.Zhang</p></div></div><div class="level-item is-narrow"><div><h6>发布于</h6><p>2023-02-15 11:25:59</p></div></div><div class="level-item is-narrow"><div><h6>更新于</h6><p>2023-02-16 02:14:53</p></div></div><div class="level-item is-narrow"><div><h6>许可协议</h6><p><a class="icons" rel="noopener external nofollow noreferrer" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener external nofollow noreferrer" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener external nofollow noreferrer" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/">博客主题</a><a class="link-muted mr-2" rel="tag" href="/tags/%E9%85%8D%E7%BD%AE%E7%AC%94%E8%AE%B0/">配置笔记</a></div><div class="a2a_kit a2a_kit_size_32 a2a_default_style"><a class="a2a_dd" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.addtoany.com/share"></a><a class="a2a_button_facebook"></a><a class="a2a_button_wechat"></a><a class="a2a_button_telegram"></a><a class="a2a_button_reddit"></a><a class="a2a_button_pocket"></a><a class="a2a_button_evernote"></a><a class="a2a_button_email"></a><a class="a2a_button_copy_link"></a></div><script>var a2a_config = a2a_config || ; a2a_config.locale = &quot;zh-CN&quot;; a2a_config.num_services = 8;</script><script async src="https://static.addtoany.com/menu/page.js"></script><script src="https://static.addtoany.com/menu/page.js" defer></script></article></div><div class="card"><div class="card-content"><h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3><div class="buttons is-centered"><a class="button donate" data-type="alipay"><span class="icon is-small"><i class="fab fa-alipay"></i></span><span>支付宝</span><span class="qrcode"><img src="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/alipay.png" alt="支付宝"></span></a><a class="button donate" href="https://buymeacoffee.com/zhangbiaod7" target="_blank" rel="noopener external nofollow noreferrer" data-type="buymeacoffee"><span class="icon is-small"><i class="fas fa-coffee"></i></span><span>送我杯咖啡</span></a><a class="button donate" data-type="wechat"><span class="icon is-small"><i class="fab fa-weixin"></i></span><span>微信</span><span class="qrcode"><img src="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/wechatpay.png" alt="微信"></span></a></div></div></div><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/posts/3eeb/"><span class="level-item">Hello World</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">评论</h3><div id="comment-container"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css"><script src="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js"></script><script>var gitalk = new Gitalk({
+<p>还原官网的页面效果:</p>
+<div class="tabs my-3 is-left is-boxed">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#install-source">
+              <span class="icon is-small ml-0">
+                <i class="fas da-file-code" aria-hidden="true"></i>
+            </span>从源码安装
+          </a>
+      </li><li>
+          <a href="#install-npm">
+              <span class="icon is-small ml-0">
+                <i class="fas fa-cubes" aria-hidden="true"></i>
+            </span>使用NPM安装
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="install-source" class="tab-content">
+          <p>从GitHub的仓库中下载源码的压缩包……</p>
+
+      </div><div id="install-npm" class="tab-content is-hidden">
+          <p>若要使用NPM将Icarus安装为node包……</p>
+
+      </div>
+
+<hr>
+<h3 id="标签容器（tabs）字段解释"><a href="#标签容器（tabs）字段解释" class="headerlink" title="标签容器（tabs）字段解释"></a>标签容器（tabs）字段解释</h3><p>标签容器（tabs）有三个字段，分别为size， align， style，<br><strong>size</strong>：可选项，定义标签页的大小，有四个配置值（small，不指定(默认)，medium，large），示例如下：</p>
+<style>
+.example-tab-container {
+  margin: 0 0 20px 0;
+  padding: 10px 20px 20px 20px;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 0.75em -0.125em rgb(10,10,10,0.1), 0 0px 0 1px rgb(10,10,10,0.02);
+}
+</style>
+<div class="example-tab-container">
+<div class="tabs my-3 is-small">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#small-tab1">
+              <p>第一页</p>
+
+          </a>
+      </li><li>
+          <a href="#small-tab2">
+              <p>第二页</p>
+
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="small-tab1" class="tab-content">
+          <p>这是一个小（<code>small</code>）标签页容器的<strong>第一页</strong></p>
+
+      </div><div id="small-tab2" class="tab-content is-hidden">
+          <p>这是一个小（<code>small</code>）标签页容器的<strong>第二页</strong></p>
+
+      </div>
+</div>
+<div class="example-tab-container">
+<div class="tabs my-3">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#none-tab1">
+              <p>第一页</p>
+
+          </a>
+      </li><li>
+          <a href="#none-tab2">
+              <p>第二页</p>
+
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="none-tab1" class="tab-content">
+          <p>这是一个不指定（<code>默认</code>）标签页容器的<strong>第一页</strong></p>
+
+      </div><div id="none-tab2" class="tab-content is-hidden">
+          <p>这是一个不指定（<code>默认</code>）标签页容器的<strong>第二页</strong></p>
+
+      </div>
+</div>
+<div class="example-tab-container">
+<div class="tabs my-3 is-medium">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#medium-tab1">
+              <p>第一页</p>
+
+          </a>
+      </li><li>
+          <a href="#medium-tab2">
+              <p>第二页</p>
+
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="medium-tab1" class="tab-content">
+          <p>这是一个中（<code>medium</code>）标签页容器的<strong>第一页</strong></p>
+
+      </div><div id="medium-tab2" class="tab-content is-hidden">
+          <p>这是一个中（<code>medium</code>）标签页容器的<strong>第二页</strong></p>
+
+      </div>
+</div>
+<div class="example-tab-container">
+<div class="tabs my-3 is-large">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#large-tab1">
+              <p>第一页</p>
+
+          </a>
+      </li><li>
+          <a href="#large-tab2">
+              <p>第二页</p>
+
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="large-tab1" class="tab-content">
+          <p>这是一个大（<code>large</code>）标签页容器的<strong>第一页</strong></p>
+
+      </div><div id="large-tab2" class="tab-content is-hidden">
+          <p>这是一个大（<code>large</code>）标签页容器的<strong>第二页</strong></p>
+
+      </div>
+</div>
+
+<p><strong>align</strong>：可选项，用于定义标签页按钮的对齐方式，有四个配置值（不指定(默认left)，centered，right，fullwith），示例如下：</p>
+<div class="example-tab-container">
+<div class="tabs my-3 is-left">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#left-tab1">
+              <p>第一页</p>
+
+          </a>
+      </li><li>
+          <a href="#left-tab12">
+              <p>第一页</p>
+
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="left-tab1" class="tab-content">
+          <p>这是一个左对齐（或不指定对齐）的标签页容器的<strong>第一页</strong></p>
+
+      </div><div id="left-tab12" class="tab-content is-hidden">
+          <p>这是一个左对齐（或不指定对齐）的标签页容器的<strong>第二页</strong></p>
+
+      </div>
+</div>
+<div class="example-tab-container">
+<div class="tabs my-3 is-centered">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#centered-tab1">
+              <p>第一页</p>
+
+          </a>
+      </li><li>
+          <a href="#centered-tab2">
+              <p>第一页</p>
+
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="centered-tab1" class="tab-content">
+          <p>这是一个居中对齐（<code>centered</code>）的标签页容器的<strong>第一页</strong></p>
+
+      </div><div id="centered-tab2" class="tab-content is-hidden">
+          <p>这是一个居中对齐（<code>centered</code>）的标签页容器的<strong>第二页</strong></p>
+
+      </div>
+</div>
+<div class="example-tab-container">
+<div class="tabs my-3 is-right">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#right-tab1">
+              <p>第一页</p>
+
+          </a>
+      </li><li>
+          <a href="#right-tab2">
+              <p>第一页</p>
+
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="right-tab1" class="tab-content">
+          <p>这是一个右对齐（<code>right</code>）的标签页容器的<strong>第一页</strong></p>
+
+      </div><div id="right-tab2" class="tab-content is-hidden">
+          <p>这是一个右对齐（<code>right</code>）的标签页容器的<strong>第二页</strong></p>
+
+      </div>
+</div>
+<div class="example-tab-container">
+<div class="tabs my-3 is-fullwidth">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#fullwidth-tab1">
+              <p>第一页</p>
+
+          </a>
+      </li><li>
+          <a href="#fullwidth-tab2">
+              <p>第一页</p>
+
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="fullwidth-tab1" class="tab-content">
+          <p>这是一个全宽（<code>fullwidth</code>）的标签页容器的<strong>第一页</strong></p>
+
+      </div><div id="fullwidth-tab2" class="tab-content is-hidden">
+          <p>这是一个全宽（<code>fullwidth</code>）的标签页容器的<strong>第二页</strong></p>
+
+      </div>
+</div>
+
+<p><strong>style</strong>：可选项，用于定义按钮的样式，可以和全宽对齐方式结合，共有六种配置值。</p>
+<p>默认对齐方式下的盒子（<code>boxed</code>）样式、拨动开关（<code>toggle</code>）样式、圆角拨动开关(<code>toggle-rounded</code>)样式；</p>
+<p>全宽对齐方式(<code>fullwidth</code>)下的盒子样式、拨动开关样式、圆角拨动开关样式。示例如下：</p>
+<div class="example-tab-container">
+<div class="tabs my-3 is-boxed">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#boxed-tab1">
+              <p>第一页</p>
+
+          </a>
+      </li><li>
+          <a href="#boxed-tab2">
+              <p>第二页</p>
+
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="boxed-tab1" class="tab-content">
+          <p>这是一个盒状（<code>boxed</code>）标签容器的<strong>第一页</strong></p>
+
+      </div><div id="boxed-tab2" class="tab-content is-hidden">
+          <p>这是一个盒状（<code>boxed</code>）标签容器的<strong>第二页</strong></p>
+
+      </div>
+</div>
+<div class="example-tab-container">
+<div class="tabs my-3 is-toggle">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#toggle-tab1">
+              <p>第一页</p>
+
+          </a>
+      </li><li>
+          <a href="#toggle-tab2">
+              <p>第二页</p>
+
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="toggle-tab1" class="tab-content">
+          <p>这是一个拨动开关（<code>toggle</code>）标签容器的<strong>第一页</strong></p>
+
+      </div><div id="toggle-tab2" class="tab-content is-hidden">
+          <p>这是一个拨动开关（<code>toggle</code>）标签容器的<strong>第二页</strong></p>
+
+      </div>
+</div>
+<div class="example-tab-container">
+<div class="tabs my-3 is-toggle is-toggle-rounded">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#toggle-rounede-tab1">
+              <p>第一页</p>
+
+          </a>
+      </li><li>
+          <a href="#toggle-rounded-tab2">
+              <p>第二页</p>
+
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="toggle-rounede-tab1" class="tab-content">
+          <p>这是一个圆角拨动开关<code>toggle-rounded</code>）标签容器的<strong>第一页</strong></p>
+
+      </div><div id="toggle-rounded-tab2" class="tab-content is-hidden">
+          <p>这是一个圆角拨动开关（<code>toggle-rounded</code>）标签容器的<strong>第二页</strong></p>
+
+      </div>
+</div>
+<div class="example-tab-container">
+<div class="tabs my-3 is-fullwidth is-boxed">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#fullwidth-boxed-tab1">
+              <p>第一页</p>
+
+          </a>
+      </li><li>
+          <a href="#fullwidth-boxed-tab2">
+              <p>第二页</p>
+
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="fullwidth-boxed-tab1" class="tab-content">
+          <p>这是一个全宽盒状（<code>boxed</code>）标签容器的<strong>第一页</strong></p>
+
+      </div><div id="fullwidth-boxed-tab2" class="tab-content is-hidden">
+          <p>这是一个全宽盒状（<code>boxed</code>）标签容器的<strong>第二页</strong></p>
+
+      </div>
+</div>
+<div class="example-tab-container">
+<div class="tabs my-3 is-fullwidth is-toggle">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#fullwidth-toggle-tab1">
+              <p>第一页</p>
+
+          </a>
+      </li><li>
+          <a href="#fullwidth-toggle-tab2">
+              <p>第二页</p>
+
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="fullwidth-toggle-tab1" class="tab-content">
+          <p>这是一个全宽拨动开关（<code>toggle</code>）标签容器的<strong>第一页</strong></p>
+
+      </div><div id="fullwidth-toggle-tab2" class="tab-content is-hidden">
+          <p>这是一个全宽拨动开关（<code>toggle</code>）标签容器的<strong>第二页</strong></p>
+
+      </div>
+</div>
+<div class="example-tab-container">
+<div class="tabs my-3 is-fullwidth is-toggle is-toggle-rounded">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#fullwidth-toggle-rounede-tab1">
+              <p>第一页</p>
+
+          </a>
+      </li><li>
+          <a href="#fullwidth-toggle-rounded-tab2">
+              <p>第二页</p>
+
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="fullwidth-toggle-rounede-tab1" class="tab-content">
+          <p>这是一个全宽圆角拨动开关<code>toggle-rounded</code>）标签容器的<strong>第一页</strong></p>
+
+      </div><div id="fullwidth-toggle-rounded-tab2" class="tab-content is-hidden">
+          <p>这是一个全宽圆角拨动开关（<code>toggle-rounded</code>）标签容器的<strong>第二页</strong></p>
+
+      </div>
+</div>
+
+<h3 id="标签（tab）字段解释"><a href="#标签（tab）字段解释" class="headerlink" title="标签（tab）字段解释"></a>标签（tab）字段解释</h3><p><strong>id</strong>：<code>必填项</code>，为标签页元素的独特标识符(ID)，且该标识符在文章页面中是唯一的，这样Icarus主题才能正确定位，显示和隐藏标签页中的内容。<br><strong>active</strong>：<code>必填项</code>，标记当前标签页是否默认显示， 同一时刻一个标签组中只有一个标签页可以设置为默认显示（<code>active</code>）。<br><strong>icon</strong>：可选项，定义标签按钮中显示的图标，它的值应为<code>FontAwesome</code>中的<code>class-name</code>，如果图标的class-name中包含空格，则配置名和配置值需要用引号包裹住。</p>
+<div class="example-tab-container">
+<div class="tabs my-3">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#tab1">
+              <span class="icon is-small ml-0">
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </span>Github
+          </a>
+      </li><li>
+          <a href="#tab2">
+              <span class="icon is-small ml-0">
+                <i class="fa-brands fa-node-jd" aria-hidden="true"></i>
+            </span>Node.JS
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="tab1" class="tab-content">
+          <p>这个标签页的图标（<code>icon</code>）为（<code>"icon:fa-brands fa-github"</code>）</p>
+
+      </div><div id="tab2" class="tab-content is-hidden">
+          <p>这个标签页的图标（<code>icon</code>）为（<code>"icon:fa-brands fa-node-js"</code>）</p>
+
+      </div>
+</div>
+
+<p><strong>title</strong>: 可选项，定义标签页按钮的标题，如果标题中含有空格，则配置名和配置值需要用引号包裹住。</p>
+<div class="example-tab-container">
+<div class="tabs my-3 is-boxed">
+        <ul class="mx-0 my-0">
+            <li class="is-active">
+          <a href="#title-style-tab1">
+              <p>有标题的标签页</p>
+
+          </a>
+      </li><li>
+          <a href="#title-style-tab2">
+              <p>有标题的   标签页</p>
+
+          </a>
+      </li><li>
+          <a href="#title-style-tab3">
+              
+          </a>
+      </li>
+        </ul>
+    </div>
+    <div id="title-style-tab1" class="tab-content">
+          <p>这是一个有标题的标签页，标题（<code>title</code>）为（<code>title:有标题的标签页</code>）</p>
+
+      </div><div id="title-style-tab2" class="tab-content is-hidden">
+          <p>这是一个有标题且标题带空格的标签页，标题（<code>icon</code>）为（<code>"title:有标题的  标签页"</code>）</p>
+
+      </div><div id="title-style-tab3" class="tab-content is-hidden">
+          <p>这是一个无标题的标签页</p>
+
+      </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div><div class="article-licensing box"><div class="licensing-title"><p>icarus主题的高级用法</p><p><a href="https://blog.geektime.club/posts/8917/">https://blog.geektime.club/posts/8917/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><p>Mr.Zhang</p></div></div><div class="level-item is-narrow"><div><h6>发布于</h6><p>2023-02-15 11:25:59</p></div></div><div class="level-item is-narrow"><div><h6>更新于</h6><p>2023-02-17 03:56:53</p></div></div><div class="level-item is-narrow"><div><h6>许可协议</h6><p><a class="icons" rel="noopener external nofollow noreferrer" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener external nofollow noreferrer" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener external nofollow noreferrer" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/">博客主题</a><a class="link-muted mr-2" rel="tag" href="/tags/%E9%85%8D%E7%BD%AE%E7%AC%94%E8%AE%B0/">配置笔记</a></div><div class="a2a_kit a2a_kit_size_32 a2a_default_style"><a class="a2a_dd" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.addtoany.com/share"></a><a class="a2a_button_facebook"></a><a class="a2a_button_wechat"></a><a class="a2a_button_telegram"></a><a class="a2a_button_reddit"></a><a class="a2a_button_pocket"></a><a class="a2a_button_evernote"></a><a class="a2a_button_email"></a><a class="a2a_button_copy_link"></a></div><script>var a2a_config = a2a_config || ; a2a_config.locale = &quot;zh-CN&quot;; a2a_config.num_services = 8;</script><script async src="https://static.addtoany.com/menu/page.js"></script><script src="https://static.addtoany.com/menu/page.js" defer></script></article></div><div class="card"><div class="card-content"><h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3><div class="buttons is-centered"><a class="button donate" data-type="alipay"><span class="icon is-small"><i class="fab fa-alipay"></i></span><span>支付宝</span><span class="qrcode"><img src="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/alipay.png" alt="支付宝"></span></a><a class="button donate" href="https://buymeacoffee.com/zhangbiaod7" target="_blank" rel="noopener external nofollow noreferrer" data-type="buymeacoffee"><span class="icon is-small"><i class="fas fa-coffee"></i></span><span>送我杯咖啡</span></a><a class="button donate" data-type="wechat"><span class="icon is-small"><i class="fab fa-weixin"></i></span><span>微信</span><span class="qrcode"><img src="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/wechatpay.png" alt="微信"></span></a></div></div></div><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/posts/3eeb/"><span class="level-item">Hello World</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">评论</h3><div id="comment-container"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css"><script src="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js"></script><script>var gitalk = new Gitalk({
             id: "01752220b49d897a91de637b06cb5d92",
             repo: "Mrzhang06",
             owner: "Mrzhang06",
@@ -96,7 +550,7 @@
             enableHotKey: true,
             language: "zh-CN",
         })
-        gitalk.render('comment-container')</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1 is-sticky"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/avatar.png" alt="飞流万壑"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">飞流万壑</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Earth China</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">2</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">1</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">2</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/mrzhang06" target="_blank" rel="noopener external nofollow noreferrer">关注我</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener external nofollow noreferrer" title="Github" href="https://github.com/mrzhang06"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener external nofollow noreferrer" title="Telegram" href="https://t.me/FlyingRiver"><i class="fab fa-telegram"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener external nofollow noreferrer" title="Twitter" href="https://twitter.com"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener external nofollow noreferrer" title="Personal QQ" href="tencent://message/?uin=1284623714&amp;Site=&amp;Menu=yes"><i class="fab fa-qq"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener external nofollow noreferrer" title="WeChat Channel" href="https://imgloc.com/i/cNPvb"><i class="fab fa-weixin"></i></a></div></div></div><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">目录</h3><ul class="menu-list"><li><a class="level is-mobile" href="#画廊"><span class="level-left"><span class="level-item">1</span><span class="level-item">画廊</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#安装使用"><span class="level-left"><span class="level-item">1.1</span><span class="level-item">安装使用</span></span></a></li><li><a class="level is-mobile" href="#示例效果"><span class="level-left"><span class="level-item">1.2</span><span class="level-item">示例效果</span></span></a></li></ul></li><li><a class="level is-mobile" href="#突出提示栏"><span class="level-left"><span class="level-item">2</span><span class="level-item">突出提示栏</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#第一种"><span class="level-left"><span class="level-item">2.1</span><span class="level-item">第一种</span></span></a></li><li><a class="level is-mobile" href="#第二种"><span class="level-left"><span class="level-item">2.2</span><span class="level-item">第二种</span></span></a></li><li><a class="level is-mobile" href="#第三种"><span class="level-left"><span class="level-item">2.3</span><span class="level-item">第三种</span></span></a></li></ul></li><li><a class="level is-mobile" href="#文章摘要"><span class="level-left"><span class="level-item">3</span><span class="level-item">文章摘要</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#第一种-1"><span class="level-left"><span class="level-item">3.1</span><span class="level-item">第一种</span></span></a></li><li><a class="level is-mobile" href="#第二种-1"><span class="level-left"><span class="level-item">3.2</span><span class="level-item">第二种</span></span></a></li></ul></li><li><a class="level is-mobile" href="#文章内容黑幕-x2F-刮刮乐"><span class="level-left"><span class="level-item">4</span><span class="level-item">文章内容黑幕/刮刮乐</span></span></a></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/Blog/"><span class="level-start"><span class="level-item">Blog</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">标签</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/"><span class="tag">博客主题</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%85%8D%E7%BD%AE%E7%AC%94%E8%AE%B0/"><span class="tag">配置笔记</span><span class="tag">1</span></a></div></div></div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">follow.it</h3><form action="https://api.follow.it/subscription-form/eCtNeUluYXBJbndQeGZZUmpaL2gvdjlBemQ0WUZESEUzWGVQemM5TmJBK2Z4Q2lZWDQ0K0JZV3ZLVWFSa3ZCYi9RRG8rNExFV2tPbWhPOHZad3pyTXMyMEsxU3NqVENIOHBWMzhwR0RKYXc3UCtOeUpNNXo1dC9wLzN4UXNEQ2Z8eVBKcHZKQUZJMWliM3lWeldRdWYzSVFMSGV4Q3I1MUFGZTNrUWhSbjVUYz0=/8" method="post" target="_blank"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="订阅"></div></div></form></div></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/202302151109303.svg" alt="飞流万壑" height="28"></a><p class="is-size-7">© 版权说明：本站部分文章收录于互联网，仅</br>
+        gitalk.render('comment-container')</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1 is-sticky"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/avatar.png" alt="飞流万壑"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">飞流万壑</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Earth China</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">2</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">1</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">2</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/mrzhang06" target="_blank" rel="noopener external nofollow noreferrer">关注我</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener external nofollow noreferrer" title="Github" href="https://github.com/mrzhang06"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener external nofollow noreferrer" title="Telegram" href="https://t.me/FlyingRiver"><i class="fab fa-telegram"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener external nofollow noreferrer" title="Twitter" href="https://twitter.com"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener external nofollow noreferrer" title="Personal QQ" href="tencent://message/?uin=1284623714&amp;Site=&amp;Menu=yes"><i class="fab fa-qq"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener external nofollow noreferrer" title="WeChat Channel" href="https://imgloc.com/i/cNPvb"><i class="fab fa-weixin"></i></a></div></div></div><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">目录</h3><ul class="menu-list"><li><a class="level is-mobile" href="#画廊"><span class="level-left"><span class="level-item">1</span><span class="level-item">画廊</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#安装使用"><span class="level-left"><span class="level-item">1.1</span><span class="level-item">安装使用</span></span></a></li><li><a class="level is-mobile" href="#示例效果"><span class="level-left"><span class="level-item">1.2</span><span class="level-item">示例效果</span></span></a></li></ul></li><li><a class="level is-mobile" href="#突出提示栏"><span class="level-left"><span class="level-item">2</span><span class="level-item">突出提示栏</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#第一种"><span class="level-left"><span class="level-item">2.1</span><span class="level-item">第一种</span></span></a></li><li><a class="level is-mobile" href="#第二种"><span class="level-left"><span class="level-item">2.2</span><span class="level-item">第二种</span></span></a></li><li><a class="level is-mobile" href="#第三种"><span class="level-left"><span class="level-item">2.3</span><span class="level-item">第三种</span></span></a></li></ul></li><li><a class="level is-mobile" href="#文章摘要"><span class="level-left"><span class="level-item">3</span><span class="level-item">文章摘要</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#第一种-1"><span class="level-left"><span class="level-item">3.1</span><span class="level-item">第一种</span></span></a></li><li><a class="level is-mobile" href="#第二种-1"><span class="level-left"><span class="level-item">3.2</span><span class="level-item">第二种</span></span></a></li></ul></li><li><a class="level is-mobile" href="#文章内容黑幕-x2F-刮刮乐"><span class="level-left"><span class="level-item">4</span><span class="level-item">文章内容黑幕/刮刮乐</span></span></a></li><li><a class="level is-mobile" href="#页内标签页"><span class="level-left"><span class="level-item">5</span><span class="level-item">页内标签页</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#标签容器（tabs）字段解释"><span class="level-left"><span class="level-item">5.1</span><span class="level-item">标签容器（tabs）字段解释</span></span></a></li><li><a class="level is-mobile" href="#标签（tab）字段解释"><span class="level-left"><span class="level-item">5.2</span><span class="level-item">标签（tab）字段解释</span></span></a></li></ul></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/Blog/"><span class="level-start"><span class="level-item">Blog</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">标签</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/"><span class="tag">博客主题</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%85%8D%E7%BD%AE%E7%AC%94%E8%AE%B0/"><span class="tag">配置笔记</span><span class="tag">1</span></a></div></div></div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">follow.it</h3><form action="https://api.follow.it/subscription-form/eCtNeUluYXBJbndQeGZZUmpaL2gvdjlBemQ0WUZESEUzWGVQemM5TmJBK2Z4Q2lZWDQ0K0JZV3ZLVWFSa3ZCYi9RRG8rNExFV2tPbWhPOHZad3pyTXMyMEsxU3NqVENIOHBWMzhwR0RKYXc3UCtOeUpNNXo1dC9wLzN4UXNEQ2Z8eVBKcHZKQUZJMWliM3lWeldRdWYzSVFMSGV4Q3I1MUFGZTNrUWhSbjVUYz0=/8" method="post" target="_blank"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="订阅"></div></div></form></div></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="https://imgpico.obs.cn-east-3.myhuaweicloud.com/img/202302151109303.svg" alt="飞流万壑" height="28"></a><p class="is-size-7">© 版权说明：本站部分文章收录于互联网，仅</br>
 作整理，如有侵权，请邮件联系，立即处理
 </p><p class="is-size-7"><span>&copy; 2023 Mr.Zhang</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener external nofollow noreferrer">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener external nofollow noreferrer">Icarus</a><br><span id="busuanzi_container_site_uv">共<span id="busuanzi_value_site_uv">0</span>个访客</span></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener external nofollow noreferrer" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener external nofollow noreferrer" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener external nofollow noreferrer" title="Email To Me" href="mailto:zhangbiaodemail@gmail.com"><i class="fa fa-envelope"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="RSS" href="/atom.xml"><i class="fas fa-rss"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-cn");</script><script>var IcarusThemeSettings = {
             article: {
