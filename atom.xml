@@ -24,14 +24,14 @@
     <updated>2023-02-18T20:10:13.000Z</updated>
     
     
-    <summary type="html">icarus主题是一款简洁美观，功能强大的hexo主题，但是千人千面，众口难调，总归是有人觉得不符合自己的审美，需要自定义一些东西。这篇文章将会记录自己在使用过程中用到的一些技巧，留作笔记，方便日后查看。</summary>
+    <summary type="html">icarus是一款简洁美观，功能强大的hexo主题，虽然主题已经整合了很多需要安装插件才能实现的功能，但是为了文章和页面的展示效果，还是需要自定义一些东西。这篇文章将会记录自己在使用过程中用到的一些技巧，留作笔记，方便日后查看。</summary>
     
     
     
     <category term="Blog" scheme="https://blog.geektime.club/categories/Blog/"/>
     
     
-    <category term="博客主题" scheme="https://blog.geektime.club/tags/%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/"/>
+    <category term="主题" scheme="https://blog.geektime.club/tags/%E4%B8%BB%E9%A2%98/"/>
     
     <category term="配置笔记" scheme="https://blog.geektime.club/tags/%E9%85%8D%E7%BD%AE%E7%AC%94%E8%AE%B0/"/>
     
