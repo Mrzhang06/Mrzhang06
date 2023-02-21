@@ -6,7 +6,7 @@
   <link href="https://blog.geektime.club/atom.xml" rel="self"/>
   
   <link href="https://blog.geektime.club/"/>
-  <updated>2023-02-18T20:10:13.000Z</updated>
+  <updated>2023-02-21T19:29:29.000Z</updated>
   <id>https://blog.geektime.club/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo个人博客SEO配置记录</title>
+    <link href="https://blog.geektime.club/posts/38/"/>
+    <id>https://blog.geektime.club/posts/38/</id>
+    <published>2023-02-19T01:29:56.000Z</published>
+    <updated>2023-02-21T19:29:29.000Z</updated>
+    
+    
+    <summary type="html">相信每一个创立博客的人都是秉承着一种记录生活，分享故事，沉淀、输出、分享自己的知识的理念来进行文章创作，如果文章创作出来之后只能自己访问，那和私人笔记有何异同？博客自身就带有社交属性，但是作为新人博客站长，没有将自己的博客站点针对搜索引擎优化之前，大众是无法轻易的访问自己的站点并浏览自己创作的文章，而要解决这个问题，就需要将自己的个人博客进行SEO。那么，什么是SEO呢？又该如何进行SEO呢？</summary>
+    
+    
+    
+    <category term="Blog" scheme="https://blog.geektime.club/categories/Blog/"/>
+    
+    
+    <category term="博客" scheme="https://blog.geektime.club/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="SEO" scheme="https://blog.geektime.club/tags/SEO/"/>
+    
+    <category term="搭建/配置笔记" scheme="https://blog.geektime.club/tags/%E6%90%AD%E5%BB%BA-%E9%85%8D%E7%BD%AE%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>icarus主题的高级用法</title>
