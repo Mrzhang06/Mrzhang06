@@ -6,7 +6,7 @@
   <link href="https://blog.geektime.club/atom.xml" rel="self"/>
   
   <link href="https://blog.geektime.club/"/>
-  <updated>2023-02-21T19:29:29.000Z</updated>
+  <updated>2023-02-23T20:50:18.000Z</updated>
   <id>https://blog.geektime.club/</id>
   
   <author>
@@ -17,7 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo个人博客SEO配置记录</title>
+    <title>Hexo+GithubAction+Vercel/GithubPages搭建个人博客</title>
+    <link href="https://blog.geektime.club/posts/8123/"/>
+    <id>https://blog.geektime.club/posts/8123/</id>
+    <published>2023-02-19T01:39:34.000Z</published>
+    <updated>2023-02-23T20:50:18.000Z</updated>
+    
+    
+    <summary type="html">&lt;div class=&quot;post-summary&quot;&gt;
+&lt;p&gt;之前用微信公众号作为自己的写作发布平台，但是发现有很多限制，不能使用markdown，不支持外链，排版格式也有很多限制，虽然网上有很多第三方微信编辑器，但是体验一番下来觉得还是不够自由。&lt;/p&gt;
+&lt;p&gt;相信有朋友会说，可以去CSDN、博客园、掘金简书之类的平台发啊，但是说实话我个人时比较抗拒这些平台的，原因嘛，大家应该也都懂得。在这之后，我就决定尝试自建写作发布平台，一番探索下来，发现博客是个不错的方式，框架平台又多，比如大名鼎鼎的wordpress、Zblog，还有像hexo、hugo、typecho等，部署方式还支持多种，可以自建服务器，也可使用托管服务。&lt;/p&gt;
+&lt;p&gt;在一众博客框架之间兜兜转转，最后决定选择Hexo，无他，主题多，配置简单，生成的是静态博客，可以使用大平台的页面托管服务，无需管理服务器。如果平台支持CI/CD，还能实现自动部署。&lt;/p&gt;
+&lt;/div&gt;</summary>
+    
+    
+    
+    <category term="Blog" scheme="https://blog.geektime.club/categories/Blog/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.geektime.club/tags/Hexo/"/>
+    
+    <category term="GithubAction" scheme="https://blog.geektime.club/tags/GithubAction/"/>
+    
+    <category term="GithubPages" scheme="https://blog.geektime.club/tags/GithubPages/"/>
+    
+    <category term="Vercel" scheme="https://blog.geektime.club/tags/Vercel/"/>
+    
+    <category term="博客" scheme="https://blog.geektime.club/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="搭建/配置笔记" scheme="https://blog.geektime.club/tags/%E6%90%AD%E5%BB%BA-%E9%85%8D%E7%BD%AE%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo个人博客SEO配置记录</title>
     <link href="https://blog.geektime.club/posts/38/"/>
     <id>https://blog.geektime.club/posts/38/</id>
     <published>2023-02-19T01:29:56.000Z</published>
@@ -33,9 +66,9 @@
     
     <category term="博客" scheme="https://blog.geektime.club/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="SEO" scheme="https://blog.geektime.club/tags/SEO/"/>
-    
     <category term="搭建/配置笔记" scheme="https://blog.geektime.club/tags/%E6%90%AD%E5%BB%BA-%E9%85%8D%E7%BD%AE%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="SEO" scheme="https://blog.geektime.club/tags/SEO/"/>
     
   </entry>
   
