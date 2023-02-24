@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.geektime.club/posts/8a8/</loc>
+    
+    <lastmod>2023-02-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.geektime.club/posts/8123/</loc>
     
     <lastmod>2023-02-23</lastmod>
@@ -106,6 +115,13 @@
   
   <url>
     <loc>https://blog.geektime.club/tags/%E4%B8%BB%E9%A2%98/</loc>
+    <lastmod>2023-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.geektime.club/tags/%E6%8F%92%E4%BB%B6/</loc>
     <lastmod>2023-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
