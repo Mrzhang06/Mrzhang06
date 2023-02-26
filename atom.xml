@@ -6,7 +6,7 @@
   <link href="https://blog.geektime.club/atom.xml" rel="self"/>
   
   <link href="https://blog.geektime.club/"/>
-  <updated>2023-02-25T17:40:53.000Z</updated>
+  <updated>2023-02-26T17:15:23.000Z</updated>
   <id>https://blog.geektime.club/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记录几个CS方向的自学网站</title>
+    <link href="https://blog.geektime.club/posts/ba39/"/>
+    <id>https://blog.geektime.club/posts/ba39/</id>
+    <published>2023-02-26T15:55:41.000Z</published>
+    <updated>2023-02-26T17:15:23.000Z</updated>
+    
+    
+    <summary type="html">记录一下一些不错的适合自学的站点，主要是CS方向的</summary>
+    
+    
+    
+    <category term="自学网站" scheme="https://blog.geektime.club/categories/%E8%87%AA%E5%AD%A6%E7%BD%91%E7%AB%99/"/>
+    
+    
+    <category term="Computer Science" scheme="https://blog.geektime.club/tags/Computer-Science/"/>
+    
+    <category term="网站收藏" scheme="https://blog.geektime.club/tags/%E7%BD%91%E7%AB%99%E6%94%B6%E8%97%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>个人hexo博客插件的使用和配置</title>

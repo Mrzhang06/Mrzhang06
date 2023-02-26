@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.geektime.club/posts/ba39/</loc>
+    
+    <lastmod>2023-02-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.geektime.club/posts/8a8/</loc>
     
     <lastmod>2023-02-25</lastmod>
@@ -127,10 +136,31 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://blog.geektime.club/tags/Computer-Science/</loc>
+    <lastmod>2023-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.geektime.club/tags/%E7%BD%91%E7%AB%99%E6%94%B6%E8%97%8F/</loc>
+    <lastmod>2023-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://blog.geektime.club/categories/Blog/</loc>
+    <lastmod>2023-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.geektime.club/categories/%E8%87%AA%E5%AD%A6%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2023-02-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
