@@ -24,7 +24,7 @@
     <updated>2023-03-09T15:19:33.000Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;取模运算(mod)和取余运算(rem)两个概念有重叠的部分，但又不完全一致；主要区别在于对负整数进行除法运算时操作不同。取模主要是用于计算机术语中；取余则更多是数学概念。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;取模运算(mod)和取余运算(rem)两个概念有重叠的部分，但又不完全一致；主要区别在于对负整数进行除法运算时操作不同。取模主要是用于计算机术语中；取余则更多是数学概念。&lt;/p&gt;</summary>
     
     
     
