@@ -6,7 +6,7 @@
   <link href="https://blog.geektime.club/atom.xml" rel="self"/>
   
   <link href="https://blog.geektime.club/"/>
-  <updated>2023-03-09T15:19:33.000Z</updated>
+  <updated>2023-05-06T16:54:07.000Z</updated>
   <id>https://blog.geektime.club/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>利用旧安卓手机搭建青龙面板</title>
+    <link href="https://blog.geektime.club/posts/386d/"/>
+    <id>https://blog.geektime.club/posts/386d/</id>
+    <published>2023-05-06T16:54:07.000Z</published>
+    <updated>2023-05-06T16:54:07.000Z</updated>
+    
+    
+    <summary type="html">今天清理卧室的旧物，发现了一部自己多年前的旧手机，插上充电器，一按电源键发现还能开机，扔了换不锈钢盆觉得可惜，自己又是爱折腾的人，想着能让他发挥一下余热。看了看网上说的，什么改监控，做桌面时钟等都太没劲。晚上刷淘宝的时候提示签到领红包，就突然想到可以安装一个青龙面板，跑一些定时任务，薅一些小羊毛等,旧手机型号是红米Note2，2G RAM/16G ROM，已刷CrDroid且获取了Root</summary>
+    
+    
+    
+    <category term="玩机" scheme="https://blog.geektime.club/categories/%E7%8E%A9%E6%9C%BA/"/>
+    
+    
+    <category term="Android" scheme="https://blog.geektime.club/tags/Android/"/>
+    
+    <category term="脚本" scheme="https://blog.geektime.club/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+    <category term="旧物利用" scheme="https://blog.geektime.club/tags/%E6%97%A7%E7%89%A9%E5%88%A9%E7%94%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>理解取余与取模运算</title>

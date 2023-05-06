@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.geektime.club/posts/386d/</loc>
+    
+    <lastmod>2023-05-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.geektime.club/posts/dc04/</loc>
     
     <lastmod>2023-03-09</lastmod>
@@ -166,6 +175,27 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://blog.geektime.club/tags/Android/</loc>
+    <lastmod>2023-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.geektime.club/tags/%E8%84%9A%E6%9C%AC/</loc>
+    <lastmod>2023-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.geektime.club/tags/%E6%97%A7%E7%89%A9%E5%88%A9%E7%94%A8/</loc>
+    <lastmod>2023-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -177,6 +207,13 @@
   
   <url>
     <loc>https://blog.geektime.club/categories/%E7%83%82%E7%AC%94%E5%A4%B4/</loc>
+    <lastmod>2023-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.geektime.club/categories/%E7%8E%A9%E6%9C%BA/</loc>
     <lastmod>2023-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
