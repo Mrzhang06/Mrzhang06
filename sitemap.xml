@@ -157,13 +157,6 @@
   </url>
   
   <url>
-    <loc>https://blog.geektime.club/tags/%E6%8F%92%E4%BB%B6/</loc>
-    <lastmod>2023-11-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.geektime.club/tags/Math/</loc>
     <lastmod>2023-11-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -214,6 +207,13 @@
   
   <url>
     <loc>https://blog.geektime.club/tags/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/</loc>
+    <lastmod>2023-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.geektime.club/tags/%E6%8F%92%E4%BB%B6/</loc>
     <lastmod>2023-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
