@@ -47,15 +47,6 @@
   </url>
   
   <url>
-    <loc>https://blog.geektime.club/posts/8123/</loc>
-    
-    <lastmod>2023-02-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.geektime.club/posts/38/</loc>
     
     <lastmod>2023-02-21</lastmod>
@@ -86,6 +77,15 @@
     <loc>https://blog.geektime.club/posts/3eeb/</loc>
     
     <lastmod>2023-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.geektime.club/posts/8123/</loc>
+    
+    <lastmod>2023-01-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
